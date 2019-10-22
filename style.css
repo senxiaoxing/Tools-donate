@@ -176,6 +176,16 @@ a {
 	transform: rotatez(15deg);
 }
 
+#donateFont {
+	position: fixed;
+	left: calc(50% - 20px);
+	top: calc(50% - 40px);
+	width: 120px;
+	height: 25px;
+	background: no-repeat center center url(images/donate.svg);
+	opacity: 0.5;
+}
+
 #MainBox.showQR {
 	animation-name: showQR;
 	animation-duration: 3s;
